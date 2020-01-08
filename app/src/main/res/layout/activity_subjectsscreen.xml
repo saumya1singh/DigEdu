@@ -19,7 +19,7 @@
            android:layout_width="match_parent"
            android:layout_height="0dp">
 
-              <androidx.cardview.widget.CardView
+              <android.support.v7.widget.CardView
 
                   android:layout_width="0dp"
                   android:layout_height="20dp"
@@ -40,6 +40,7 @@
                          android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/physics"
                                 android:src="@drawable/physics"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_width="400dp"
@@ -58,11 +59,11 @@
 
 
 
-              </androidx.cardview.widget.CardView>
+              </android.support.v7.widget.CardView>
 
               <!---column2-->
 
-              <androidx.cardview.widget.CardView
+              <android.support.v7.widget.CardView
 
                   android:layout_width="0dp"
                   android:layout_height="0dp"
@@ -83,6 +84,7 @@
                          android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/chemistry"
                                 android:src="@drawable/chemistry2"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_width="400dp"
@@ -101,12 +103,12 @@
 
 
 
-              </androidx.cardview.widget.CardView>
+              </android.support.v7.widget.CardView>
 
 
               <!---column2-->
 
-              <androidx.cardview.widget.CardView
+              <android.support.v7.widget.CardView
 
                   android:layout_width="0dp"
                   android:layout_height="0dp"
@@ -127,6 +129,7 @@
                          android:orientation="vertical">
 
                             <ImageView
+                                android:id="@+id/maths"
                                 android:src="@drawable/maths"
                                 android:layout_gravity="center_horizontal"
                                 android:layout_width="400dp"
@@ -145,7 +148,7 @@
 
 
 
-              </androidx.cardview.widget.CardView>
+              </android.support.v7.widget.CardView>
 
 
 

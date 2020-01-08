@@ -1,8 +1,7 @@
 package com.mind.simplelogin;
 
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 
 public class studentlayout extends AppCompatActivity {
 
