@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SimpleLogin</string>
+    <string name="app_name">DigEdu</string>
 
     <string name="automatic_data">SMART EDUCATION</string>
     <string name="permission_title">Grant Access</string>
