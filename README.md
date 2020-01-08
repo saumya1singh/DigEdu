@@ -8,6 +8,8 @@ Step 2 : Open project in Android Studio
 [Read this](https://medium.com/@singhsaumyas150/contribute-to-open-source-using-git-dd918f81e1ba) to get started 🎉 
 
 # Some Screenshots
+<img width="250" alt="Screenshot 2019-12-09 at 8 58 59 PM" src="https://user-images.githubusercontent.com/46818757/71983679-4f264480-324d-11ea-83ca-abbe515fa0f3.png">
+
 ![image](https://user-images.githubusercontent.com/46818757/71983679-4f264480-324d-11ea-83ca-abbe515fa0f3.png)
 ![image](https://user-images.githubusercontent.com/46818757/71983823-a1676580-324d-11ea-8bc7-0fc2a93bfb9e.png)
 ![image](https://user-images.githubusercontent.com/46818757/71983862-b93ee980-324d-11ea-870a-4edac3adac58.png)
