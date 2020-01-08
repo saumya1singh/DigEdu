@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SimpleLogin</string>
+
+    <string name="automatic_data">SMART EDUCATION</string>
+    <string name="permission_title">Grant Access</string>
+    <string name="permission_detail">Give Music Player access to files</string>
+    <string name="choose_the_song">FOR TEACHERS</string>
+    <string name="edit_data">FOR STUDENTS</string>
+    <string name="result_awesome">FOR PARENTS</string>
+    <string name="continue_and_learn">Smart learning aims at providing holistic learning to students using modern technology to fully prepare them for a fast-changing world where adaptability is crucial.</string>
+    <string name="continue_and_update">Teachers are dedicated professionals who have a lasting impact on students. Becoming a teacher will allow you to leverage your strengths and passion as a leader in the education field.</string>
+    <string name="continue_and_result">Student life is the happiest and the most crucial period in the life of a person. It is not just about attending classes in a course and working hard to attain an appropriate level of mastery of a subject under the guidance of an instructor.</string>
+    <string name="thank_you">Thank you, have fun</string>
+    <string name="gm_finds_photos">Smart education is more than just advanced learning methods</string>
+    <string name="swap_to_the_tab">Everybody who is incapable of learning has taken to teaching.</string>
+    <string name="update_easily">There are no shortcuts to any place worth going.</string>
+    <string name="after_updating">Children are educated by what the grown-up is and not by his talk.</string>
+
+
+</resources>
