@@ -29,6 +29,12 @@
         <activity
             android:name=".LoginActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
+<activity android:name=".parentslayout"/>
+    <activity android:name=".studentlayout"/>
+        <activity android:name=".subjectsscreen"/>
+        <activity android:name=".teacherlayout"/>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
