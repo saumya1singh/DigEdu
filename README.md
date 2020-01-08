@@ -12,3 +12,4 @@ Step 2 : Open project in Android Studio
 <img width="250" alt="Screenshot 2019-12-09 at 8 58 59 PM" src="https://user-images.githubusercontent.com/46818757/71983913-d673b800-324d-11ea-8072-927f6ad928b2.png">
 <img width="250" alt="Screenshot 2019-12-09 at 8 58 59 PM" src="https://user-images.githubusercontent.com/46818757/71983892-cc51b980-324d-11ea-881e-47829b04ea60.png">
 <img width="250" alt="Screenshot 2019-12-09 at 8 58 59 PM" src="https://user-images.githubusercontent.com/46818757/71983930-e25f7a00-324d-11ea-831d-e0baf6aa35c6.png">
+<img width="250" alt="Screenshot 2019-12-09 at 8 58 59 PM" src="https://user-images.githubusercontent.com/46818757/71985829-53ecf780-3251-11ea-90e1-0877e890899f.png">
