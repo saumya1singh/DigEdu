@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".CalendarActivity">
 
     <com.github.sundeepk.compactcalendarview.CompactCalendarView
@@ -13,8 +14,8 @@
         android:layout_height="300dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        app:compactCalendarBackgroundColor="#ffe95451"
-        app:compactCalendarCurrentDayBackgroundColor="#B71C1C"
+        app:compactCalendarBackgroundColor="@color/colorPurple"
+        app:compactCalendarCurrentDayBackgroundColor="@color/colorPurple"
         app:compactCalendarCurrentSelectedDayBackgroundColor="#E57373"
         app:compactCalendarMultiEventIndicatorColor="#fff"
         app:compactCalendarTargetHeight="250dp"
@@ -23,8 +24,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="295dp"
-        android:layout_height="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:layout_below="@+id/compactcalendar_view"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
@@ -33,14 +34,16 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="49dp"
         android:layout_marginLeft="49dp"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="67dp"
         android:layout_marginRight="67dp"
-        android:layout_marginBottom="224dp"
+        android:layout_marginBottom="350dp"
         android:gravity="center"
         android:text="SCHOOL CALENDAR"
-        android:textSize="20dp"
+        android:textColor="@color/colorPurple"
+        android:textSize="25dp"
+
         android:textStyle="bold" />
 
 
-</RelativeLayout>
+</LinearLayout>
