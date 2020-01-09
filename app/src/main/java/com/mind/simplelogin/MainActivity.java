@@ -3,12 +3,14 @@ package com.mind.simplelogin;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
 import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView student,teacher,parents;
+    CardView student,teacher,parents;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
