@@ -41,6 +41,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".UPIPAY"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            
+        </activity>
         <activity
             android:name=".OnboardingActivity"
             android:theme="@style/AppTheme.FullScreen" />
