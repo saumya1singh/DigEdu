@@ -15,6 +15,23 @@
     <string name="swap_to_the_tab">Everybody who is incapable of learning has taken to teaching.</string>
     <string name="update_easily">There are no shortcuts to any place worth going.</string>
     <string name="after_updating">Children are educated by what the grown-up is and not by his talk.</string>
+    <array name="category">
+        <item>6th Class</item>
+        <item>7th Class</item>
+        <item>8th Class</item>
+        <item>9th Standard</item>
+        <item>10th Standard</item>
+        <item>11th Standard</item>
+        <item>12th Standard</item>
+        <item>Bachelors</item>
 
+    </array>
+    <array name="subCategory">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+
+    </array>
 
 </resources>

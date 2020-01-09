@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bggrd"
+    android:id="@+id/main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/topR"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:id="@+id/tvRating"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/black"
+                android:layout_alignParentLeft="true" />
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/s1"
+            android:paddingBottom="30dp"
+            android:layout_below="@+id/topR"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/appR"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/tvTop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="You are Chatting with Saumya's parents "
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="330dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/logobg">
+
+                    <EditText
+                        android:id="@+id/etMssg"
+                        android:layout_width="290dp"
+                        android:layout_height="280dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"
+                        android:layout_centerHorizontal="true"
+                        android:textColorHint="@color/textColor"
+                        android:backgroundTint="@color/white"
+                        android:hint="Type your message here...."
+                        android:inputType="textEmailAddress" />
+                </RelativeLayout>
+                <Button
+                    android:id="@+id/btnSend"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/logobg"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Send"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/s1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+
+
+            >
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:id="@+id/v1"
+                android:layout_marginBottom="5dp"
+                android:layout_above="@+id/qt"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/qt"
+                android:textColor="@color/black"
+
+                android:layout_centerHorizontal="true"
+                android:text=""
+
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -14,7 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".VedioActivity"></activity>
+        <activity android:name=".ParentAttendance"></activity>
+        <activity android:name=".attendance" />
+        <activity android:name=".AttendanceByTeacher" />
+        <activity android:name=".Chat" />
+        <activity android:name=".ChatSelection" />
+        <activity android:name=".VedioActivity" />
         <activity android:name=".WebView" />
         <activity android:name=".PdfActivity" />
         <activity android:name=".StudyMaterial" />

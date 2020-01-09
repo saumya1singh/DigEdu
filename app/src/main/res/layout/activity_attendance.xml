@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_gradient"
+    android:layout_height="match_parent"
+    tools:context=".attendance">
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="DATE"
+        android:inputType="date"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="NAME"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="ROLL NO"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:inputType="number"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/standard"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="CLASS"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:inputType="text"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/present"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="PRESENT OR ABSENT"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/round_corner"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/background"
+        android:text="add attendance"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:onClick="add_attendance"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
