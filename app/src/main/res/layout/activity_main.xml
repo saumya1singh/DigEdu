@@ -18,7 +18,7 @@
         android:textSize="20dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="You want to LOGIN AS" />
+        android:text="You want to LOGIN AS ?" />
 
     <GridLayout
         android:columnCount="1"
