@@ -43,9 +43,12 @@
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity android:name=".parentslayout"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".studentlayout" />
-        <activity android:name=".subjectsscreen" />
-        <activity android:name=".teacherlayout" />
+        <activity android:name=".studentlayout"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".subjectsscreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
+        <activity android:name=".teacherlayout"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
     </application>
