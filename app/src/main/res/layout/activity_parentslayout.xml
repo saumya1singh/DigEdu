@@ -57,22 +57,23 @@
 
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:src="@drawable/fee_payment"
+                    android:layout_width="69dp"
+                    android:layout_height="46dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"/>
+                    android:src="@drawable/fee_payment" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="FEES PAYMENT"
                     android:textColor="#000"
+                    android:layout_gravity="center"
                     android:textAlignment="center"
                     android:textSize="15dp"
                     android:textStyle="bold"/>
@@ -101,21 +102,21 @@
 
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:src="@drawable/chatting"
+                    android:layout_width="61dp"
+                    android:layout_height="60dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"/>
+                    android:src="@drawable/chatting" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="CHAT WITH TEACHERS"
+                    android:text="Online PTM"
                     android:textColor="#000"
                     android:textAlignment="center"
                     android:textSize="15dp"
@@ -148,21 +149,22 @@
 
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:src="@drawable/attandance"
+                    android:layout_width="84dp"
+                    android:layout_height="70dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"/>
+                    android:src="@drawable/attandance" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ATTENDANCE"
+                    android:layout_gravity="center"
                     android:textColor="#000"
                     android:textAlignment="center"
                     android:textSize="15dp"
@@ -192,21 +194,22 @@
 
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:src="@drawable/feedback3"
+                    android:layout_width="86dp"
+                    android:layout_height="71dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"/>
+                    android:src="@drawable/feedback3" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="FEEDBACK"
+                    android:layout_gravity="center"
                     android:textColor="#000"
                     android:textAlignment="center"
                     android:textSize="20dp"
@@ -237,21 +240,22 @@
 
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:src="@drawable/calling"
+                    android:layout_width="86dp"
+                    android:layout_height="54dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"/>
+                    android:src="@drawable/calling" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="CALLING"
+                    android:layout_gravity="center"
                     android:textColor="#000"
                     android:textAlignment="center"
                     android:textSize="20dp"
@@ -280,24 +284,25 @@
 
             <LinearLayout
                 android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:src="@drawable/remainder"
+                    android:layout_width="85dp"
+                    android:layout_height="69dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"/>
+                    android:src="@drawable/remainder" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="REMINDER"
+                    android:text="School Calendar"
+                    android:layout_gravity="center"
                     android:textColor="#000"
                     android:textAlignment="center"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:textStyle="bold"/>
 
             </LinearLayout>
