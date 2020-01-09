@@ -10,7 +10,7 @@ import androidx.cardview.widget.CardView;
 
 public class parentslayout extends AppCompatActivity {
 
-    CardView cardchat,cardfeedBack,cardPattendance,calendar,upi;
+    CardView cardchat,cardfeedBack,cardPattendance,calendar,upi,cardCall;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,5 +62,6 @@ public class parentslayout extends AppCompatActivity {
 
             }
         });
+
     }
 }
