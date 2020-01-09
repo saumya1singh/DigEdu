@@ -10,7 +10,7 @@ import androidx.cardview.widget.CardView;
 
 public class parentslayout extends AppCompatActivity {
 
-    CardView cardchat,cardfeedBack,cardPattendance;
+    CardView cardchat,cardfeedBack,cardPattendance,calendar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +18,15 @@ public class parentslayout extends AppCompatActivity {
         cardchat=findViewById(R.id.cardChatpp);
         cardfeedBack=findViewById(R.id.cardFeedback);
         cardPattendance=findViewById(R.id.cardPattendance);
+        calendar=findViewById(R.id.cal1);
+
+        calendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getBaseContext(), CalendarActivity.class);
+                startActivity(intent);
+            }
+        });
 
         cardchat.setOnClickListener(new View.OnClickListener() {
             @Override

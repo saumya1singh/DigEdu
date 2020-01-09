@@ -228,7 +228,7 @@
         <!---column1-->
 
         <androidx.cardview.widget.CardView
-
+            android:id="@+id/cal1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -249,7 +249,7 @@
 
                 <ImageView
                     android:layout_width="86dp"
-                    
+
                     android:layout_height="54dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/calling" />

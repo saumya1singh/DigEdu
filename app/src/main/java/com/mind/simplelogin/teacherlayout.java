@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 public class teacherlayout extends AppCompatActivity {
-    CardView cardFeedback, cardchat, cardAttendance;
+    CardView cardFeedback, cardchat, cardAttendance,cal3;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class teacherlayout extends AppCompatActivity {
         cardFeedback=findViewById(R.id.cardFeedback);
         cardchat=findViewById(R.id.cardChat);
         cardAttendance=findViewById(R.id.cardAttendance);
-
+cal3=findViewById(R.id.cal3);
         cardFeedback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -28,6 +28,14 @@ public class teacherlayout extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        cal3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getBaseContext(), CalendarActivity.class);
+                startActivity(intent);
+            }
+        });
+
         cardchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
