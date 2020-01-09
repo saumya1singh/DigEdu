@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 public class studentlayout extends AppCompatActivity {
-    CardView cardStudy, cardFeedback,cardVedio,cal2;
+    CardView cardStudy, cardFeedback,cardVedio,cal2, profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,15 @@ public class studentlayout extends AppCompatActivity {
         cardFeedback=findViewById(R.id.cardFeedback);
          cardVedio=findViewById(R.id.cardVedio);
         cal2=findViewById(R.id.cal2);
+profile=findViewById(R.id.profile);
 
+profile.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(getBaseContext(), Profile.class);
+        startActivity(intent);
+    }
+});
         cal2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

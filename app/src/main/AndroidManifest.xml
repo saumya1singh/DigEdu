@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mind.simplelogin">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -17,6 +19,8 @@
         <activity android:name=".ParentAttendance"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         />
+        <activity android:name=".Profile"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
         <activity android:name=".attendance"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
         <activity android:name=".AttendanceByTeacher"
@@ -43,7 +47,7 @@
         </activity>
         <activity android:name=".UPIPAY"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-            
+
         </activity>
         <activity
             android:name=".OnboardingActivity"
