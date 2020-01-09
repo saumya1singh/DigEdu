@@ -154,8 +154,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="96dp"
-                    android:layout_height="100dp"
+                    android:layout_width="80dp"
+                    android:layout_height="73dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/attandance" />
 
@@ -199,8 +199,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="74dp"
-                    android:layout_height="91dp"
+                    android:layout_width="59dp"
+                    android:layout_height="71dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/feedback3" />
 
@@ -290,8 +290,8 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="99dp"
-                    android:layout_height="74dp"
+                    android:layout_width="75dp"
+                    android:layout_height="52dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/remainder" />
 
