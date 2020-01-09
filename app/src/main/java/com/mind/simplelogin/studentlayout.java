@@ -17,7 +17,7 @@ public class studentlayout extends AppCompatActivity {
         setContentView(R.layout.activity_studentlayout);
         cardStudy=findViewById(R.id.cardStudyMaterial);
         cardFeedback=findViewById(R.id.cardFeedback);
-        cardVedio=findViewById(R.id.cardVedio);
+         cardVedio=findViewById(R.id.cardVedio);
 
 
         cardStudy.setOnClickListener(new View.OnClickListener() {

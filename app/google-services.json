@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1094746950314",
+    "firebase_url": "https://digedu-b56d7.firebaseio.com",
+    "project_id": "digedu-b56d7",
+    "storage_bucket": "digedu-b56d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094746950314:android:61705816eb55c24f059ed3",
+        "android_client_info": {
+          "package_name": "com.mind.simplelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094746950314-75fvbpl11pbjlp1i1mukatqptg7tqknu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mind.simplelogin",
+            "certificate_hash": "4b2b84c20e2ddbfc6e44cac5f4639254faf762d0"
+          }
+        },
+        {
+          "client_id": "1094746950314-v1u1vpj0sv1uqk0rmi66c0j4s24gjf1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK7XANlq7ty8ZnkngWyUz36hYPe7Kh_sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094746950314-v1u1vpj0sv1uqk0rmi66c0j4s24gjf1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

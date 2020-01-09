@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bggrd"
+    android:id="@+id/main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/topR"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:id="@+id/tvRating"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@color/black"
+                android:layout_alignParentLeft="true" />
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/s1"
+            android:paddingBottom="30dp"
+            android:layout_below="@+id/topR"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/appR"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fill Details  "
+                            android:id="@+id/text3"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/logobg">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Choose class"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:id="@+id/classes"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_toEndOf="@+id/classes"
+                        android:id="@+id/a1"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/classes" />
+
+                    <Spinner
+                        android:id="@+id/spinClass"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_toEndOf="@+id/a1"
+                        android:entries="@array/category"
+                        android:layout_toRightOf="@+id/a1" />
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/logobg">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Section            "
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:id="@+id/classess"
+                        android:textSize="15sp"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/right"
+                        android:layout_toEndOf="@+id/classess"
+                        android:id="@+id/a2"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/classess" />
+
+                    <Spinner
+                        android:id="@+id/spinSec"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_toEndOf="@+id/a2"
+                        android:entries="@array/subCategory"
+                        android:layout_toRightOf="@+id/a2" />
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/logobg">
+
+                    <EditText
+                        android:id="@+id/etRoll"
+                        android:layout_width="290dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"
+                        android:layout_centerHorizontal="true"
+                        android:textColorHint="@color/textColor"
+                        android:backgroundTint="@color/white"
+                        android:hint="Roll No."
+                        android:inputType="textEmailAddress" />
+                </RelativeLayout>
+                <Button
+                    android:id="@+id/btnsubmit"
+                    android:layout_width="180dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/logobg"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/s1"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+
+
+            >
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:id="@+id/v1"
+                android:layout_marginBottom="5dp"
+                android:layout_above="@+id/qt"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/qt"
+                android:textColor="@color/black"
+
+                android:layout_centerHorizontal="true"
+                android:text=""
+
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
