@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         student.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-                Intent intent = new Intent(MainActivity.this, subjectsscreen.class);
+                Intent intent = new Intent(MainActivity.this, studentlayout.class);
                 startActivity(intent);
 
             }

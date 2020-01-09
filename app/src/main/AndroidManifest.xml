@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mind.simplelogin">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -11,7 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Splash"
+        <activity android:name=".VedioActivity"></activity>
+        <activity android:name=".WebView" />
+        <activity android:name=".PdfActivity" />
+        <activity android:name=".StudyMaterial" />
+        <activity
+            android:name=".Splash"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,21 +29,18 @@
         </activity>
         <activity
             android:name=".OnboardingActivity"
-            android:theme="@style/AppTheme.FullScreen">
-
-        </activity>
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name=".RegisterActivity"
             android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name=".LoginActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-
-<activity android:name=".parentslayout"/>
-    <activity android:name=".studentlayout"/>
-        <activity android:name=".subjectsscreen"/>
-        <activity android:name=".teacherlayout"/>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".parentslayout" />
+        <activity android:name=".studentlayout" />
+        <activity android:name=".subjectsscreen" />
+        <activity android:name=".teacherlayout" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
